@@ -1,5 +1,20 @@
 # VizHub
 
+> **Historical repository:** This source preserves earlier **VizHub 2, VizHub 3 planning, and prototypes**. Its images, "currently deployed" language and beta domain references date from an earlier era and should not be used to identify the live service in 2026. The current user-facing product is [VizHub](https://vizhub.com/), while the previous public platform is associated with [old.vizhub.com](https://old.vizhub.com/).
+>
+> The original design goals and screen captures below are retained for historical study, not as a current feature list or production runbook.
+
+## Repository navigation
+
+- [`vizhub-v2/`](vizhub-v2/) — second-generation implementation.
+- [`vizhub-v3/`](vizhub-v3/) — third-generation development history.
+- [`prototypes/`](prototypes/) — earlier explorations, including false starts.
+- [VZCode](https://github.com/vizhub-studio/vzcode) and [magic-sandbox](https://github.com/vizhub-studio/magic-sandbox) are separate public components relevant to the historical implementation.
+- This repository has **no root `package.json`**; development commands must be taken from the specific version subdirectory, not assumed for the whole repository.
+
+## Original project overview (historical)
+
+
 A platform for interactive graphics.
 
 Try it out 👉 https://vizhub.com/
@@ -10,7 +25,7 @@ Try it out 👉 https://vizhub.com/
 
 ## VizHub 2
 
-VizHub version 2 is the product currently deployed at https://vizhub.com. Source code for this is located in the [vizhub-v2 directory](https://github.com/vizhub-core/vizhub/tree/main/vizhub-v2). This codebase will remain deployed for some time with maintenance fixes from time to time, but active development energy is going towards VizHub 3.
+At the time this text was written, VizHub version 2 was the product deployed at https://vizhub.com. This statement is historical and no longer describes the current deployment. Source code for this is located in the [vizhub-v2 directory](https://github.com/vizhub-studio/vizhub-legacy/tree/main/vizhub-v2). This codebase will remain deployed for some time with maintenance fixes from time to time, but active development energy is going towards VizHub 3.
 
 ### VizHub 2 Features
 
@@ -18,11 +33,11 @@ VizHub has enough features to be useful for people who teach data visualization 
 
  * Fork and modify vizzes coded with ES6 in the browser.
  * iFrame-based code execution environment.
- * Uses [https://github.com/vizhub-core/magic-sandbox](https://github.com/vizhub-core/magic-sandbox), the same tech used for [Blockbuilder](http://blockbuilder.org/) circa 2016.
+ * Uses [https://github.com/vizhub-studio/magic-sandbox](https://github.com/vizhub-studio/magic-sandbox), the same tech used for [Blockbuilder](http://blockbuilder.org/) circa 2016.
  * Code editor based on CodeMirror 5.
  * Ability to switch between files (only one file is viewable at a time currently).
  * Code editor OT integration with ShareDB and JSON0.
- * Real-time collaborative code editing with presence avatars (but [buggy](https://github.com/vizhub-core/vizhub/blob/main/vizhub-v2/packages/json0-with-presence/index.js#L8)).
+ * Real-time collaborative code editing with presence avatars (but [buggy](https://github.com/vizhub-studio/vizhub-legacy/blob/main/vizhub-v2/packages/json0-with-presence/index.js#L8)).
  * Embed a viz in any page (iframe-based embed with backlink).
  * Embed a code snippet in any page (iframe-based embed with backlink).
  * Mini mode
@@ -32,7 +47,7 @@ VizHub has enough features to be useful for people who teach data visualization 
 
 Try it out 👉 https://beta.vizhub.com/
 
-A re-write of VizHub is in progress, located in the [vizhub-v3 directory](https://github.com/vizhub-core/vizhub/tree/main/vizhub-v3). This is where active development is taking place.
+A rewrite of VizHub was being explored at the time this document was written, in the [vizhub-v3 directory](https://github.com/vizhub-studio/vizhub-legacy/tree/main/vizhub-v3). This sentence refers to the historical development effort, not active 2026 development.
 
 ![image](https://user-images.githubusercontent.com/68416/144443632-db541593-580d-4a29-8eb3-4a106d003d06.png)
 
@@ -48,9 +63,9 @@ Goals:
 
 This repository houses an archive of prototypes as a reference to draw from for VizHub 3 development.
 
- * [prototypes/open-core-first-attempt](https://github.com/vizhub-open-core/vizhub/tree/main/prototypes/open-core-first-attempt) - An attempt at a modular architecture. Notable features here include: Server rendering, Proper ShareDB hydration, and Markdown rendering in a Web worker
- * [prototypes/vizhub-v3-false-start](https://github.com/vizhub-open-core/vizhub/tree/main/prototypes/vizhub-v3-false-start) - An earlier false start at a VizHub rewrite. Notable features here include: Working PWA setup, new viz preview design, new home page design.
- * [prototypes/vizhub-v2-false-start](https://github.com/vizhub-open-core/vizhub/tree/main/prototypes/vizhub-v2-false-start) - An ancient effort. Notable features here include: CodeMirror 6 integration, dynamic code editor theming, fonts with ligatures.
+ * [prototypes/open-core-first-attempt](https://github.com/vizhub-studio/vizhub-legacy/tree/main/prototypes/open-core-first-attempt) - An attempt at a modular architecture. Notable features here include: Server rendering, Proper ShareDB hydration, and Markdown rendering in a Web worker
+ * [prototypes/vizhub-v3-false-start](https://github.com/vizhub-studio/vizhub-legacy/tree/main/prototypes/vizhub-v3-false-start) - An earlier false start at a VizHub rewrite. Notable features here include: Working PWA setup, new viz preview design, new home page design.
+ * [prototypes/vizhub-v2-false-start](https://github.com/vizhub-studio/vizhub-legacy/tree/main/prototypes/vizhub-v2-false-start) - An ancient effort. Notable features here include: CodeMirror 6 integration, dynamic code editor theming, fonts with ligatures.
 
-## Get Involved
-Does this project pique your interest? Please let me know! Feel free to [open an issue](https://github.com/vizhub-open-core/vizhub-ui/issues) or [give me a shout on Twitter](https://twitter.com/currankelleher).
+## Historical participation links
+The original issue boards and social invitations belonged to an earlier project phase. For current source discussions, use the relevant repository's GitHub issues.
