@@ -17,7 +17,7 @@
 
 A platform for interactive graphics.
 
-Try it out 👉 https://vizhub.com/
+Current VizHub website (not this historical build): https://vizhub.com/
 
 [![image](https://user-images.githubusercontent.com/68416/146487297-256c5aca-eb67-43a8-8eff-dc68218f914d.png)](https://vizhub.com/)
 
@@ -29,7 +29,8 @@ At the time this text was written, VizHub version 2 was the product deployed at 
 
 ### VizHub 2 Features
 
-VizHub has enough features to be useful for people who teach data visualization with D3 and React. It has been used in [Data Visualization Course 2018](https://curran.github.io/dataviz-course-2018/), [Datavis 2020](https://datavis.tech/datavis-2020/), and [Get it Right in Black and White](
+VizHub has enough features to be useful for people who teach data visualization with D3 and React. It has been used in [Data Visualization Course 2018](https://curran.github.io/dataviz-course-2018/), [Datavis 2020](https://datavis.tech/datavis-2020/), and other instructional materials.
+
 
  * Fork and modify vizzes coded with ES6 in the browser.
  * iFrame-based code execution environment.
@@ -45,7 +46,7 @@ VizHub has enough features to be useful for people who teach data visualization 
 
 ## VizHub 3
 
-Try it out 👉 https://beta.vizhub.com/
+Historical beta hostname (not a verified active demo): https://beta.vizhub.com/
 
 A rewrite of VizHub was being explored at the time this document was written, in the [vizhub-v3 directory](https://github.com/vizhub-studio/vizhub-legacy/tree/main/vizhub-v3). This sentence refers to the historical development effort, not active 2026 development.
 
